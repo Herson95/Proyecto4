@@ -1,4 +1,4 @@
-<input type="hidden" name="" v-model="ClickedAgencia.id" require placeholder="Codigo"/><br />
+    <input type="hidden" name="" v-model="ClickedAgencia.id" require placeholder="Codigo"/><br />
     <input type="text" name="" v-model="ClickedAgencia.Codigo" require placeholder="Codigo"/><br />
     <input type="text" name="" v-model="ClickedAgencia.Direccion" require placeholder="Direccion"/><br /><br />
     <input type="text" name="" v-model="ClickedAgencia.Telefono" require placeholder="Telefono"/><br />
