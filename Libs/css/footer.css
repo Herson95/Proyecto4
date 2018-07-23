@@ -1,0 +1,44 @@
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: -45%;
+    width: 99%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font:20px Oswald;
+    border-radius: 10px;
+    margin-left: 0.5%;
+    margin-top: 5%;
+ }
+
+ 
+ @media screen and (max-width: 1024px) {
+    .footer {
+        position: absolute;
+        margin-top:2%;
+       
+     }
+}
+ @media screen and (max-width: 800px) {
+    .footer {
+        position: absolute;
+        bottom: -90%;
+       
+     }
+}
+ @media screen and (max-width: 640px) {
+    .footer {
+        position: absolute;
+        bottom: -90%;
+       
+     }
+}
+
+@media (min-width: 320px) and (max-width: 479px){
+    .footer {
+        position: absolute;
+        bottom: -90%;
+       
+     }
+}
